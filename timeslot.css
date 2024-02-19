@@ -1,0 +1,54 @@
+body{
+    background-color: #bac8ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time-slots-container {
+    width: 500px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: #91a7ff;
+}
+
+.time-slot {
+    padding: 10px;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.time-slot.selected {
+    background-color: #845ef7;
+    color: #fff;
+}
+
+.confirm-booking {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #845ef7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-booking:hover {
+    background-color: #7048e8;
+}

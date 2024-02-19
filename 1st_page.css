@@ -1,0 +1,37 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-image: url("doctor.jpeg");
+    /* background-size: cover; */
+    /* background-position: center; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Updated alignment to flex-start */
+    color: white;
+    font-family: 'DM Serif Display', serif; /* Applied the specified font */
+}
+
+h1 {
+    font-size: 3.1em;
+    text-align: left; /* Align the text to the left */
+    margin-left: 200px; /* Add left margin for spacing */
+    color: black;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #7048e8;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 200px; /* Add left margin for spacing */
+}
+
+.btn:hover{
+    background-color: #6741d9;
+}
