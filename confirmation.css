@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    margin: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #007bff; /* Blue color */
+}
+
+p {
+    font-size: 18px;
+    color: #333; /* Dark gray color */
+}

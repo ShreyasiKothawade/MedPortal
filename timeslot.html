@@ -10,9 +10,13 @@
     <div class="container">
         <h1 class="title">Select Time Slot</h1>
         <div class="time-slots-container" id="timeSlots"></div>
-        <button id="confirmBooking" class="confirm-booking" style="display:none;">Confirm Booking</button>
+        <button id="confirmBooking" class="confirm-booking" onclick="confirmation()">Confirm Booking</button>
     </div>
-
+    <script>
+        function confirmation() {
+            window.location.href = "confirmation.html";
+        }
+    </script>
     <script src="timeslot.js"></script>
 </body>
 </html>
