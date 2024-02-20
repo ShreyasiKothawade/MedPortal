@@ -9,15 +9,23 @@
 <body>
     <div class="container">
         <h1>Select Doctor</h1>
-        <button class="btn" onclick="redirectToDoctorSelection()">SUBMIT</button>
-
-        
+        <ul id="doctorList">
+            <li onclick="toggleSubmitButton('doctor1')">Dr. ABC</li>
+            <li onclick="toggleSubmitButton('doctor2')">Dr. XYZ</li>
+        </ul>
+        <button id="submitButton" class="btn" style="display:none;" onclick="redirectToPatientDetails()">SUBMIT</button>
     </div>
+
     <script>
-        function redirectToDoctorSelection() {
+        function toggleSubmitButton(doctor) {
+            var submitButton = document.getElementById("submitButton");
+            submitButton.style.display = "block";
+            // You can perform further actions based on the selected doctor if needed
+        }
+
+        function redirectToPatientDetails() {
             window.location.href = "patient_details.html";
         }
     </script>
-    
 </body>
 </html>
