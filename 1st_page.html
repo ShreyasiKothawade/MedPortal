@@ -36,7 +36,7 @@
                     <input type="date" id="bookingDate" required>
                 </div>
                 <div class="input-group">
-                    <label for="speciality">Speciality:</label>
+                    <label for="Department">Department:</label>
                     <select id="speciality" onchange="getDoctors()" required>
                         <option value="">Select Speciality</option>
                         <option value="Cardiology">Cardiology</option>
@@ -74,7 +74,7 @@
                     <textarea id="previousHistory" rows="8" required></textarea>
                 </div>
             </div>
-            <button class="btn" id="submitBtn" style="display: none;" onclick="submitForm()">Submit</button>
+            <div class="submit"><button class="btn" id="submitBtn" style="display: none;" onclick="submitForm()">Submit</button></div>
         </div>
     </div>
 

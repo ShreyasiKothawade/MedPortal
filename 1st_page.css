@@ -2,22 +2,27 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f9f6f0; /* Soft Cream */
+    background-image: url("7.jpeg") ;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
     width: 70%;
     margin: 50px auto;
-    background-color: #ffffff; /* White */
+    /* background-color: #ffffff; White */
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    background-color: rgba(254, 254, 254, 0.3); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect for glass morphism */
+
 }
 
 h1 {
     text-align: center;
     font-size: 36px;
-    color: #f39c12; /* Orange */
+    color: #212529; /* Orange */
 }
 
 .form-container {
@@ -47,7 +52,7 @@ textarea {
     border-radius: 10px;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    background-color: #fef2e4; /* Light Orange */
+    background-color: #f1f3f5; /* Light Orange */
     margin-top: 5px;
 }
 
@@ -56,7 +61,7 @@ input[type="tel"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-    background-color: #fddbb1; /* Lighter Orange */
+    background-color: #dee2e6; /* Lighter Orange */
     outline: none;
 }
 
@@ -75,7 +80,7 @@ textarea {
 }
 
 .btn {
-    background-color: #f08020; /* Orange */
+    background-color: #495057; /* Orange */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -83,8 +88,14 @@ textarea {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn:hover {
-    background-color: #d46200; /* Darker Orange */
+    background-color: #212529; /* Darker Orange */
+}
+
+.submit{
+    justify-content: center;
 }
