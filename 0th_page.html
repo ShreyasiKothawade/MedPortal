@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Select User Type</h1>
+        <h1 class="med-portal">MedPortal</h1>
+        <h2>Select User Type</h2>
         <div class="button-container">
             <div><button class="btn doctor-btn" onclick="redirectToDoctorPage()">Doctor</button></div>
             <div><button class="btn patient-btn" onclick="redirectToPatientPage()">Patient</button></div>
@@ -17,7 +18,7 @@
 
     <script>
         function redirectToDoctorPage() {
-            window.location.href = "/";
+            window.location.href = "doc_login.html";
         }
 
         function redirectToPatientPage() {
