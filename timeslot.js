@@ -28,9 +28,9 @@ function generateTimeSlots() {
     while (hour < endTime) {
         let timeSlot = '';
         if (minutes === 0) {
-            timeSlot = `${hour}:00 AM`;
+            timeSlot = `${hour}:00`;
         } else {
-            timeSlot = `${hour}:${minutes < 10 ? '0' + minutes : minutes} AM`;
+            timeSlot = `${hour}:${minutes < 10 ? '0' + minutes : minutes}`;
         }
 
         const timeSlotElement = createTimeSlotElement(timeSlot);

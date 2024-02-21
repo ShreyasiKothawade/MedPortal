@@ -16,7 +16,7 @@ body {
 
 /* Setting up background */
 body {
-    background-color: #f0f3f8;
+    background-color: #add8e6; /* Light Blue */
     font-family: 'Roboto', Arial, sans-serif;
 }
 
@@ -35,7 +35,7 @@ body {
 /* Title styling */
 .title {
     font-size: 36px;
-    color: #8e44ad; /* Purple */
+    color: #000; /* Purple */
     margin-bottom: 30px;
 }
 
@@ -49,8 +49,8 @@ body {
 
 /* Time slot styling */
 .time-slot {
-    background-color: #3498db; /* Blue */
-    color: #fff; /* White */
+    background-color: #adb5bd; /* Blue */
+    color: #0f0f0f; /* White */
     border-radius: 15px;
     padding: 20px;
     width: 150px;
@@ -64,18 +64,20 @@ body {
 }
 
 .time-slot.selected {
-    background-color: #9b59b6; /* Dark Purple */
+    background-color: #212529; /* Dark Purple */
+    color: #fff ;
 }
 
 .time-slot:hover:not(.selected) {
-    background-color: #2980b9; /* Dark Blue */
+    background-color: #495057; /* Dark Blue */
     transform: scale(1.05);
+    color: #ffe3e3;
 }
 
 /* Confirm booking button styling */
 .confirm-booking {
     display: none;
-    background-color: #3498db; /* Blue */
+    background-color: #212529; /* Blue */
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -87,7 +89,7 @@ body {
 }
 
 .confirm-booking:hover {
-    background-color: #2980b9; /* Dark Blue */
+    background-color: #495057; /* Dark Blue */
 }
 
 /* Centering the Confirm Booking button */
